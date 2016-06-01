@@ -9,8 +9,8 @@
 title: EMUFest 2016 Submission Form
 email: info@emufest.org
 description:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://emuform.giuseppesilvi.com" # the base hostname & protocol for your site
+baseurl: "/emuform" # the subpath of your site, e.g. /blog
+url: "http://emufest.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
