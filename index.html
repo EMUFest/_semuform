@@ -2,42 +2,40 @@
 layout: default
 ---
 
-<div class="home">
 
-  <div class="form">
     <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-      <label>First Author:<label>
+      <label>First Author:</label>
       <div class="form-field">
-          <input name="nameone" type="text" placeholder="First author - Last name first name" required>
+          <input name="nameone" type="text" placeholder="last name first name" required>
       </div>
       <div class="form-field">
-          <input name="dateone" type="text" placeholder="First author year of birth" required>
+          <input name="dateone" type="text" placeholder="year of birth" required>
       </div>
       <div class="form-field">
-          <textarea name="Bioengone" placeholder="Short Bio in English" required></textarea>
+          <textarea name="Bioengone" placeholder="Short Bio in English - max 200 words" required></textarea>
       </div>
       <div class="form-field">
-          <textarea name="Bioitaone" placeholder="Breve Bio in italiano" required></textarea>
+          <textarea name="Bioitaone" placeholder="Breve Bio in italiano - max 200 words" required></textarea>
       </div>
       <label>Second Author:</label>
       <div class="form-field">
-          <input name="nametwo" type="text" placeholder="Second author name" required>
+          <input name="nametwo" type="text" placeholder="last name first name" required>
       </div>
       <div class="form-field">
-          <input name="nametwo" type="text" placeholder="Second author year of birth" required>
+          <input name="nametwo" type="text" placeholder="year of birth" required>
       </div>
       <div class="form-field">
-          <textarea name="Bioengtwo" placeholder="Short Bio in English" required></textarea>
+          <textarea name="Bioengtwo" placeholder="Short Bio in English - max 200 words" required></textarea>
       </div>
       <div class="form-field">
-          <textarea name="Bioitatwo" placeholder="Breve Bio in italiano" required></textarea>
+          <textarea name="Bioitatwo" placeholder="Breve Bio in italiano - max 200 words" required></textarea>
       </div>
       <label>Contacts:</label>
       <div class="form-field">
-          <input name="phone" type="tel" placeholder="Phone" required>
+          <input name="email" type="email" placeholder="Email" required>
       </div>
       <div class="form-field">
-          <input name="email" type="email" placeholder="Email" required>
+          <input name="phone" type="tel" placeholder="Phone - optional" required>
       </div>
       <div class="form-field">
           <input name="address" type="text" placeholder="Address" required>
@@ -57,20 +55,22 @@ layout: default
           <input name="year" type="text" placeholder="Year of Composition" required>
       </div>
       <div class="form-field">
-          <input name="duration" type="text" placeholder="Duration" required>
+          <input name="duration" type="text" placeholder="Duration in min.sec - example 7.13) (Please approximately for Live electronics)" required>
       </div>
       <div class="form-field">
-          <textarea name="Description" placeholder="Work Description" required></textarea>
+          <input name="performers" type="text" placeholder="Performers required" required>
+      </div>
+      <div class="form-field">
+          <textarea name="Program Notes" placeholder="500 word maximum" required></textarea>
       </div>
       <input type="submit" class="btn btn-default" value="Send">
     </form>
-  </div>
-
 
 <br>
 <hr>
 
-  <h4>Please name the file like so: <em>lastname-firstname-title.zip</em></h4>
-  <h5>For example: if your name is <em>John Doe</em> and the title of your composition is <em>Flying Saucers</em>,
-      the name of the zip file package should be: <em>doe-john-flying_saucers.zip</em></h5>
-</div>
+<h4>All the required material for performance must be sent and upload until exipration date.<br>
+
+For upload (Audio files, Technical specifications in PDF, All software components for the functioning of the work) use WeTransfer to info@emufest.org<br>
+
+Please name the file like so: lastname-firstname_title.zip</h4>
